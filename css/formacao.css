@@ -1,0 +1,130 @@
+.formacao{
+  background-color: #202020;
+}
+.formacao-container{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap:100px;
+  padding: 120px 20px;
+  margin:0px auto ;   
+  max-width: 1200px;
+}
+.formacao .subtitulo{
+  color: #000;
+  max-width: 5ch;
+}
+
+.formacao-texto{
+  color:#a3a3a3;
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 40ch;
+  margin-bottom: 60px ;
+}
+.empresas-container{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap; 
+  margin-bottom: 60px; 
+}
+.faculdade{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 20px;
+ background: #000;
+  border-radius: 4px;
+  position: relative;
+}
+.faculdade-lista{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+   
+   
+}
+.faculdade-curso{
+  font-size: 1.125rem;
+ flex: 1;
+}
+.faculdade-instituicao{
+font-size:1.125rem;
+color: #a3a3a3;
+margin-top:40px;
+}
+.faculdade-tipo{
+  font-size: 0.875rem;
+  color: #a3a3a3;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.faculdade-lista li::before{
+content: "";
+position: absolute;
+left: -5px;
+top: 50px;
+padding: 10px 2px;
+display: block;
+background-image: linear-gradient(#b6f829, #67dd0a);
+}
+.formacao-extra{
+  position: relative;
+}
+.cursos{
+  margin-bottom: 60px; 
+ }
+.formacao-img{
+  position: absolute;
+  left: -40px;
+  top: -6px;
+}
+.formacao-extra h3{
+  font-size:0.875rem;
+  color:#8f8f8f;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  line-height: 1.4;
+}
+.formacao-extra ul:not(.idioma){
+  display:flex;
+  justify-content: space-between;
+  } 
+.formacao-extra li{
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 1.125rem;
+  text-transform:none;
+  line-height: 1.1;
+}
+.formacao-extra span{
+  color: #8f8f8f;
+  text-transform: lowercase;
+  font-size: 1.125rem;
+}
+.idioma{
+  padding: 0%;
+  margin-bottom: 20px;
+}
+.idioma li{
+  color: #fff;
+}
+@media(max-width:800px){
+.formacao-container {
+  grid-template-columns: 1fr;
+  gap: 40px;
+  padding: 60px 20px;
+}
+.formacao .subtitulo{
+  font-size: 3rem;
+  color: #fff;
+  text-transform: capitalize;
+  max-width: none;
+}
+.formacao-texto{
+  font-size: 1.25rem;
+}
+.formacao-img{
+  top: -33px;
+  left: 1px;
+}
+}

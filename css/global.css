@@ -1,0 +1,39 @@
+*{
+  font-family: fira sans;  
+  margin: 0%;
+  }
+  a{
+    text-decoration: none;
+  }
+  ul{
+    list-style: none;
+    padding: 0%;
+  }
+  strong{
+    color: #000;
+  }
+  .branco{
+    color:#fff;
+  }
+  .cinza{
+    color: #525252;
+  }
+  img{
+    max-width: 100%;
+    display: block;
+  }
+  .subtitulo{
+    font-size: 8rem;
+    word-break: break-all;
+    max-width: 4ch ;
+    text-transform:uppercase;
+    line-height: 1;
+  }
+  @media(max-width:800px){
+  .subtitulo{
+    font-size: 3rem;
+    color: #000;
+    text-transform: capitalize;
+    max-width: initial;
+  }
+}  
