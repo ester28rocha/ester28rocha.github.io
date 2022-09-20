@@ -16,7 +16,6 @@ left: 5
 .footer-container p{
   color: #ccc;
    font-size:1.5rem;
-  /* justify-content: start;  */
   line-height: 1.33;
   align-self: center;
 }

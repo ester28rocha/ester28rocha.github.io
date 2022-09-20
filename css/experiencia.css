@@ -46,7 +46,6 @@
 } 
 .empresas-ul{
   display: flex;
-  /* padding: 0%; */
   place-self: start;
   gap: 10px;
   flex-wrap: wrap;
